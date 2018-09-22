@@ -12,7 +12,7 @@ function highlightLink() {
   const coords = {
     width: linkCoords.width,
     height: linkCoords.height,
-    left: linkCoords.left,
+    left: linkCoords.left + window.scrollX,
     // Handle when page is scrolled
     top: linkCoords.top + window.scrollY
   }
