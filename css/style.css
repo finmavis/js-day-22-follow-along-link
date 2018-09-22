@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(to right bottom, #1e5460, #0b4558, #00364f, #002844, #051937);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #DADADA;
+  font-size: 1.6rem;
+  min-height: 100vh;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 50rem;
+  font-size: 2rem;
+  line-height: 2;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.highlight {
+  transition: all 0.3s;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);;
+  position: absolute;
+  top: 0;
+  background: rgba(255, 255, 255, 0.4);
+  left: 0;
+  z-index: -1;
+  border-radius: 2rem;
+  display: block;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 10rem 0;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0 2rem;
+  color:#fff;
+}
